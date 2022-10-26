@@ -40,7 +40,7 @@
 		<!-- NAVBAR -->
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="brand">
-				<a href="index.html"><img src="assets/img/logo-dark.png" alt="Klorofil Logo" class="img-responsive logo"></a>
+				<a href="index.html"><img src="assets/img/ssumart.png" alt="Klorofil Logo" class="img-responsive logo"></a>
 			</div>
 			<div class="container-fluid">
 				<div class="navbar-btn">
@@ -96,8 +96,10 @@ document.getElementById("current_date").innerHTML = Date();
 									<div class="metric">
 										<span class="icon"><i class="fa fa-shopping-bag"></i></span>
 										<p>
-											<span class="number">나중에 수위 넣을곳</span>
-											<span class="title">수위</span>
+													<span class="number">수위</span>
+												<iframe id="window_iframe_9896965" class="window-iframe"
+	 												 src="https://thingspeak.com/channels/1875018/widgets/535774"></iframe>
+
 										</p>
 									</div>
 								</div>
@@ -115,10 +117,12 @@ document.getElementById("current_date").innerHTML = Date();
 										<span class="icon"><i class="fa fa-bar-chart"></i></span>
 										<p>
 											<span class="number">전등이 켜저있는지 on off</span>
-											<span class="title">전등 </span>
+											<iframe id="window_iframe_9896965" class="window-iframe"
+												 src="https://thingspeak.com/channels/1875018/widgets/535772"></iframe>
 										</p>
 									</div>
 								</div>
+
 							</div>
 							<div class="row">
 																<div class="ui grid">
@@ -126,10 +130,10 @@ document.getElementById("current_date").innerHTML = Date();
 											<div class="row">
 													<div style="margin-left: 30px; margin-right: 30px; width: 90%; background-color: rgb(245, 245, 245);" class="ui card">
 															<div class="content">
-																	<h3>기온(여기에 데이터 넣을것)</h3>
+																	<h3>LED(여기에 데이터 넣을것)</h3>
 															</div>
 															<iframe id="window_iframe_9896965" class="window-iframe"
-																	src="https://thingspeak.com/channels/1651803/charts/1?bgcolor=%23ffffff&amp;color=%237addaf&amp;dynamic=true&amp;results=60&amp;type=line&amp;update=15"></iframe>
+																	src="https://thingspeak.com/channels/1875018/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
 															<div class="content">
 																	<br>
 															</div>
@@ -138,10 +142,10 @@ document.getElementById("current_date").innerHTML = Date();
 											<div class="row">
 													<div style="margin-left: 30px; margin-right: 30px; width: 90%; background-color: rgb(245, 245, 245);" class="ui card">
 															<div class="content">
-																	<h3>습도(여기에 데이터 넣을것)</h3>
+																	<h3>수위 (여기에 데이터 넣을것)</h3>
 															</div>
 															<iframe id="window_iframe_9896965" class="window-iframe"
-																	src="https://thingspeak.com/channels/1651803/charts/1?bgcolor=%23ffffff&amp;color=%237addaf&amp;dynamic=true&amp;results=60&amp;type=line&amp;update=15"></iframe>
+																	src="https://thingspeak.com/channels/1875018/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
 															<div class="content">
 																	<br>
 															</div>
@@ -150,10 +154,10 @@ document.getElementById("current_date").innerHTML = Date();
 											<div class="row">
 													<div style="margin-left: 30px; margin-right: 30px; width: 90%; background-color: rgb(245, 245, 245);" class="ui card">
 															<div class="content">
-																	<h3>pH(여기에 데이터 넣을것)</h3>
+																	<h3>모터 on off 상태</h3>
 															</div>
 															<iframe id="window_iframe_9896965" class="window-iframe"
-																	src="https://thingspeak.com/channels/1651803/charts/1?bgcolor=%23ffffff&amp;color=%237addaf&amp;dynamic=true&amp;results=60&amp;type=line&amp;update=15"></iframe>
+																 src="https://thingspeak.com/channels/1875018/widgets/535773"></iframe>
 															<div class="content">
 																	<br>
 															</div>
